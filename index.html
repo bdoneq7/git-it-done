@@ -21,8 +21,9 @@
 
   <main class="flex-row justify-space-between">
 
-    <!-- Search by Github User Section Start -->
+    <!-- Search by Github User or Topic Section Start -->
     <div class="col-12 col-md-4">
+
       <div class="card">
         <h3 class="card-header text-uppercase">Search by User</h3>
         <form id="user-form" class="card-body">
@@ -31,8 +32,21 @@
           <button type="submit" class="btn">Get User</button>
         </form>
       </div>
+
+      <div class="card">
+        <h3 class="card-header text-uppercase">Search by Topic</h3>
+        <div class="card-body" id="language-buttons">
+          <button class="btn" data-language="javascript">Javascript</button>
+          <button class="btn" data-language="html">HTML</button>
+          <button class="btn" data-language="css">CSS</button>
+        </div>
+      </div>
+
     </div>
-    <!-- Search by Github User Section End -->
+    <!-- Search by Github User or Topic Section End -->
+
+    
+
 
     <!-- Show Repositories based on Search -->
     <div class="col-12 col-md-8">
